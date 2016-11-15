@@ -1,0 +1,21 @@
+{
+	 "XUnit - Argument Null Test": {
+		"prefix": "xuant",
+		"body": [
+			"/// <summary>",
+			"/// Tests that passing a null ${argumentName} argument will result",
+        	"/// in an <see cref=\"ArgumentNullException\" /> being thrown.",
+        	"/// </summary>",
+			"[Fact]",
+			"public void Null${ArgumentName}ShouldThrowException()",
+			"{",
+			"	ArgumentNullException exception = Assert.Throws<ArgumentNullException>(() =>",
+			"		$1",
+			"	);",
+			"",
+			"	Assert.Equal<string>(\"${argumentName}\", exception.ParamName);",
+			"}"
+		],
+		"description": "Creates a unit test method for testing that a method throws an ArgumentNullException when a null argument is supplied."
+	}
+}

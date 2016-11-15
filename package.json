@@ -1,0 +1,16 @@
+{
+    "name": "IZS VS Code Extension",
+    "publisher": "Iteration Zero Software",
+    "description": "VS Code extension for developing Iteration Zero Software solutions.",
+    "version": "0.1.0",
+    "engines": { "vscode": "0.10.x" },
+    "categories": ["Snippets"], 
+    "contributes": {
+        "snippets": [
+            {
+                "language": "csharp",
+                "path": "./snippets/csharp.json"
+            }
+        ]
+    }
+}
