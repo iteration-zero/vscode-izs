@@ -1,4 +1,16 @@
 {
+	"Assembly Info": {
+		"prefix": "assemblyInfo",
+		"body": [
+			"using System.Reflection;",
+			"using System.Runtime.CompilerServices;",
+			"",
+			"[assembly: AssemblyCompany(\"${company:Iteration Zero Software\"})]",
+			"[assembly: AssemblyCopyright(\"${copyright:Copyright © Iteration Zero Software 2016\"})]",
+			"[assembly: AssemblyVersion(\"${version:1.0.0.0}\")]",
+			"[assembly: AssemblyFileVersion(\"${version:1.0.0.0}\")]"
+		]
+	},
 	 "XUnit - Argument Null Test": {
 		"prefix": "xuant",
 		"body": [

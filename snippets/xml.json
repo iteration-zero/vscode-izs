@@ -1,0 +1,20 @@
+{
+	"Nuspec Boiler Plate": {
+		"prefix": "nuspec",
+		"body": [
+			"<?xml version=\"1.0\" encoding=\"utf-8\" ?>",
+			"<package xmlns=\"http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd\">",
+			"	<metadata>",
+			"		<id>${packageId:$$id$}</id>",
+			"		<version>${version:$$version$}</version>",
+			"		<title>${title:IZS}</title>",
+			"		<authors>${authors:$$author$}</authors>",
+			"		<requireLicenseAcceptance>false</requireLicenseAcceptance>",
+			"		<description>${description:$$description$}</description>",
+			"		<copyright>${copyright:$$copyright$}</copyright>",
+			"	</metadata>",
+			"</package>"
+		],
+		"description": "Creates a default nuspec file."
+	}
+}
