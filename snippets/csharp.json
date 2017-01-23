@@ -1,4 +1,13 @@
 {
+	"Automatic Property": {
+		"prefix": "autop",
+		"body": [
+			"/// <summary>",
+			"/// ${description:Gets or sets}",
+			"/// </summary>",
+			"public ${type:int} ${name:Name} { get; set; }"
+		]
+	},
 	"Assembly Info": {
 		"prefix": "assemblyInfo",
 		"body": [
